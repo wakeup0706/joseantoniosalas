@@ -20,7 +20,7 @@ const Top = () => {
         <header className="border-b-[0.5px] border-gray-600  p-3 md:p-5">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <img src={Logo} alt="Luxen Logo" className="w-20" />
-            <MainButton text="EMPEZAR" />
+            <MainButton text="EMPEZAR" textColor="white" />
           </div>
         </header>
         <main className="flex flex-1 items-center justify-center text-center pb-10">
@@ -38,7 +38,7 @@ const Top = () => {
             <p className="text-sm sm:text-base my-6">
               Landing pages que convierten, tecnología con IA y automatización inteligente para escalar tu clínica.
             </p>
-            <MainButton text="AGENDA TU ANÁLISIS GRATUITO" />
+            <MainButton text="AGENDA TU ANÁLISIS GRATUITO" textColor="white" />
           </div>
         </main>
       </div>

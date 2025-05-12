@@ -32,7 +32,7 @@ const Privadas_por = () => {
           </p>
         </div>
         <div className="flex-shrink-0">
-          <MainButton text="QUIERO MI LANDING POR 79 €" />
+          <MainButton text="QUIERO MI LANDING POR 79 €" textColor="white" />
         </div>
       </div>
     </section>

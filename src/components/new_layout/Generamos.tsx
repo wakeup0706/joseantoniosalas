@@ -16,7 +16,7 @@ const Generamos: FC = () => {
           Generamos clientes cualificados, no seguidores.
         </h1>
         <div className="mt-6">
-          <MainButton text="AGENDA TU ANÁLISIS GRATUITO" />
+          <MainButton text="AGENDA TU ANÁLISIS GRATUITO" textColor='white' />
         </div>
       </div>
     </section>
