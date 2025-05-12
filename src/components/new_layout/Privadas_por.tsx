@@ -4,7 +4,7 @@ const Privadas_por = () => {
 
   return (
     <section className="bg-neutral-900 text-white px-4 py-12">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-8 mb-8">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-8 mb-8 items-center">
         <div className="flex-1">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-snug">
             Landing page profesional para clínicas <br />

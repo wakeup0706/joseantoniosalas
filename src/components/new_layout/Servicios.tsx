@@ -55,7 +55,7 @@ const services: Service[] = [
 
 const Servicios: FC = () => {
   return (
-    <section className="py-32 mt-20 px-4 bg-white">
+    <section className="py-8 md:py-32 mt-0 md:mt-20 px-4 bg-white">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
         Servicios
       </h2>

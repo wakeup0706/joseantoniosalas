@@ -75,13 +75,13 @@ const testimonials: Testimonial[] = [
 export default function Logrado() {
 
   return (
-    <div className="w-full overflow-hidden bg-white py-32">
+    <div className="w-full overflow-hidden bg-white py-8 md:py-32">
       <div className="text-center">
         <p className="text-[#D4AF37]">CASOS DE EXITO</p>
-        <p className="my-6 text-4xl font-bold">Lo que hemos logrado</p>
+        <p className="my-6 text-3xl md:text-4xl font-bold">Lo que hemos logrado</p>
         <p>Creamos una landing optimizada, activamos automatizaciones y chatbot con IA.</p>
       </div>
-      <div className="parent mt-20 max-w-7xl mx-auto px-12">
+      <div className="parent mt-20 max-w-7xl mx-auto px-4 md:px-12">
         <Carousel
           responsive={responsive}
           autoPlay={true}
