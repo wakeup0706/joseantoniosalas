@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+@keyframes drawLine {
+  0% {
+    stroke-dashoffset: 500;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(6px);
+  }
+}
+
+@keyframes drawLineDelayed {
+  0%, 29% {
+    stroke-dashoffset: 500;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(6px);
+  }
+}
+
+.underline-svg {
+  position: absolute;
+  bottom: -0.7rem;
+  left: -5%;
+  width: 110%;
+  height: 2.5rem;
+  pointer-events: none;
+}
+
+.underline-path {
+  stroke: #facc15;
+  stroke-width: 8;
+  fill: none;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  opacity: 0;
+}
+
+.underline-path.upper {
+  animation: drawLine 8s ease-in-out infinite;
+}
+
+.underline-path.lower {
+  animation: drawLineDelayed 8s ease-in-out infinite;
+}
